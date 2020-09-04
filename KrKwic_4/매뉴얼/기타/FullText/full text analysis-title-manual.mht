@@ -1,0 +1,435 @@
+From: <Windows Internet Explorer 7¡¤I AuAa>
+Subject: text analysis with visualization, co-word maps
+Date: Thu, 6 Nov 2008 12:01:20 +0900
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://users.fmg.uva.nl/lleydesdorff/software/ti/index.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>text analysis with visualization, co-word =
+maps</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.5730.13" name=3DGENERATOR>
+<STYLE>@font-face {
+	font-family: MS Mincho;
+}
+@font-face {
+	font-family: @MS Mincho;
+}
+@page Section1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in 1.25in; }
+P.MsoNormal {
+	FONT-SIZE: 11pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+LI.MsoNormal {
+	FONT-SIZE: 11pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+DIV.MsoNormal {
+	FONT-SIZE: 11pt; MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: purple; TEXT-DECORATION: underline
+}
+P.rendesparagrafus {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 12pt; MARGIN: 0in 0in 6pt; =
+TEXT-INDENT: 0.2in; LINE-HEIGHT: 13pt; FONT-FAMILY: Arial; TEXT-ALIGN: =
+justify
+}
+LI.rendesparagrafus {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 12pt; MARGIN: 0in 0in 6pt; =
+TEXT-INDENT: 0.2in; LINE-HEIGHT: 13pt; FONT-FAMILY: Arial; TEXT-ALIGN: =
+justify
+}
+DIV.rendesparagrafus {
+	TEXT-JUSTIFY: inter-ideograph; FONT-SIZE: 12pt; MARGIN: 0in 0in 6pt; =
+TEXT-INDENT: 0.2in; LINE-HEIGHT: 13pt; FONT-FAMILY: Arial; TEXT-ALIGN: =
+justify
+}
+DIV.Section1 {
+	page: Section1
+}
+OL {
+	MARGIN-BOTTOM: 0in
+}
+UL {
+	MARGIN-BOTTOM: 0in
+}
+</STYLE>
+</HEAD>
+<BODY lang=3DEN-US vLink=3Dpurple link=3Dblue>
+<DIV class=3DSection1>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt"><A href=3D"http://www.leydesdorff.net/">return =
+to home=20
+page</A></SPAN></P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: right" align=3Dright><B><SPAN=20
+style=3D"FONT-SIZE: 12pt"><A=20
+href=3D"http://users.fmg.uva.nl/lleydesdorff/software/ti/ti.exe">click =
+here to=20
+download program</A></SPAN></B></P>
+<P class=3DMsoNormal><B><SPAN style=3D"FONT-SIZE: =
+12pt"></SPAN></B>&nbsp;</P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: center" =
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-SIZE: 12pt">TI.exe for Co-Word Analysis</SPAN></B></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">TI.exe is freely =
+available for=20
+academic usage. The program generates a word-occurrence matrix, a word=20
+co-occurrence matrix, and a normalized co-occurrence matrix from a set =
+of lines=20
+(e.g., titles) and a word list. The output files can be read into =
+standard=20
+software (like SPSS, Ucinet/Pajek, etc.) for the statistical analysis =
+and the=20
+visualization. A version adapted for the Korean character set is =
+available at <A=20
+href=3D"http://www.leydesdorff.net/krkwic">http://www.leydesdorff.net/krk=
+wic</A> .=20
+A version for Chinese is available at <A=20
+href=3D"http://www.leydesdorff.net/software/Chinese/index.htm">http://www=
+.leydesdorff.net/software/Chinese/index.htm</A>.=20
+</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><I><SPAN style=3D"FONT-SIZE: 12pt">input =
+files</SPAN></I></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">The program needs =
+two=20
+informations, notably, (a) the name of the file &lt;words.txt&gt; that =
+contains=20
+the words (as variables) to be analyzed in ASCII format and (b) a file =
+text.txt=20
+in which each line provides a textual unit (e.g., a title). The number =
+of lines=20
+is unlimited, but each line can at the maximum contain 999 characters. =
+Each line=20
+has to be ended with a hard carriage return (CR + LF). The number of =
+words is=20
+limited to 1024, but keep in mind that most programs (e.g., Excel) will =
+not=20
+allow you to handle more than 256 variables in the follow-up. The words =
+have to=20
+be on separate lines which are ended with a hard character return and =
+line feed.=20
+(Save in Word as plain text with CR/LF or use a DOS utility (e.g., =
+CRLF.EXE,=20
+available at the Internet) for saving the file.)</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.25in; TEXT-INDENT: =
+-0.25in">=95<SPAN=20
+style=3D"font-size-adjust: none; font-stretch: normal"><SPAN=20
+style=3D"FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-SIZE: 12pt">If some texts are larger than 999 characters, =
+you can=20
+use <A=20
+href=3D"http://www.leydesdorff.net/software/fulltext/index.htm">fulltext.=
+exe=20
+</A>instead. FullText.exe can handle an unlimited number of text files =
+to a size=20
+of 64 k each.</SPAN></P>
+<P class=3DMsoNormal>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 12pt 0.25in; TEXT-INDENT: -0.25in">=95<SPAN=20
+style=3D"font-size-adjust: none; font-stretch: normal"><SPAN=20
+style=3D"FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-SIZE: 12pt">One can .build a word frequency list with <A=20
+href=3D"http://www.leydesdorff.net/software/ti/frqlist.exe">FrqList.Exe</=
+A>. This=20
+DOS-program reads &lt;text.txt&gt; and allows for the specification of a =
+
+stopword list in &lt;<A=20
+href=3D"http://www.leydesdorff.net/software/ti/stopword.txt">stopword.txt=
+</A>&gt;.=20
+The results are provided as uppercase in the file =
+&lt;wrdfrq.txt&gt;.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.25in; TEXT-INDENT: =
+-0.25in">=95<SPAN=20
+style=3D"font-size-adjust: none; font-stretch: normal"><SPAN=20
+style=3D"FONT-SIZE: 7pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</SPAN></SPAN><SPAN=20
+style=3D"FONT-SIZE: 12pt">One can also build a word frequency list with =
+a=20
+concordance program. For example, <A=20
+href=3D"http://www.niederlandistik.fu-berlin.de/textstat/software-en.html=
+">TextSTAT-2</A>=20
+is freeware and online. Please, remove hyphens and interpunction from =
+the words=20
+in words.txt. Additionally, <A=20
+href=3D"http://www.leydesdorff.net/software/ti/stopword.exe">stopword.exe=
+</A> is=20
+available for correction using a given list with stopwords (e.g., <A=20
+href=3D"http://www.leydesdorff.net/software/ti/stopword.txt">stopword.txt=
+</A>).=20
+Both list=97the lists of words and stopwords=97have to be available in =
+the same=20
+folder. This program just checks the words in their <I>current</I> form =
+(that=20
+is, without corrections for plural or for uppercase/lowercase =
+forms).</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><I><SPAN style=3D"FONT-SIZE: 12pt">program =
+file</SPAN></I></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">The program is =
+based on=20
+DOS-legacy software from the 1980s (Leydesdorff, 1995). It runs in a =
+MS-Dos=20
+Command Box under Windows. The programs and the input files have to be =
+contained=20
+in the same folder. The output files are written into this directory as =
+well.=20
+Please, note that existing files from a previous run are overwritten by =
+the=20
+program. Save output elsewhere if you wish to continue with the=20
+materials.</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><I><SPAN style=3D"FONT-SIZE: 12pt">output =
+files</SPAN></I></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">The program =
+produces three=20
+output files in dBase IV format. These files can be read into Excel =
+and/or SPSS=20
+for further processing. Two files with the extension =93.dat=94 are in =
+DL-format=20
+(ASCII) and can be read into Pajek for the visualization (freely =
+available at <A=20
+href=3D"http://vlado.fmf.uni-lj.si/pub/networks/pajek/">http://vlado.fmf.=
+uni-lj.si/pub/networks/pajek/</A>=20
+).</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">a. <I>matrix.dbf =
+</I>contains=20
+an occurrence matrix of the words in the texts. This matrix is =
+asymmetrical: it=20
+contains the words as the variables and the texts as the cases. In other =
+words,=20
+each row represents a text in the sequential order of the text =
+numbering, and=20
+each column represents a word in the sequential order of the word list. =
+(It is=20
+advisable to sort the word list alphabetically before the analysis.) The =
+words=20
+are also the variable names although truncated to ten positions. The =
+words are=20
+counted as frequencies. (The plural =93s=94 is removed before =
+processing.)=20
+</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">The file =
+<I>matrix.dbf </I>can=20
+also be imported into SPSS for further analysis. An additional file=20
+<I>labels.sps</I> can be read into SPSS as a script; after running it =
+provides=20
+the variables with the full words as variable labels. </SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">b. <I>coocc.dbf =
+</I>contains a=20
+co-occurrence matrix of the words from this same data. This matrix is=20
+symmetrical and it contains the words both as variables and as labels in =
+the=20
+first field. The main diagonal is set to zero. The number of =
+co-occurrences is=20
+equal to the multiplication of occurrences in each of the texts. (The =
+procedure=20
+is similar to using the file matrix.dbf as input to the routine =
+=93affiliations=94=20
+in UCINET, but the main diagonal is here set to zero in this matrix.) =
+The file=20
+<I>coocc.dat </I>contains this information in the DL-format.</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">c. <I>cosine.dbf =
+</I>contains a=20
+normalized co-occurrence matrix of the words from the same data. =
+Normalization=20
+is based on the cosine between the variables conceptualized as vectors =
+(Salton=20
+&amp; McGill, 1983). (The procedure is similar to using the file =
+matrix.dbf as=20
+input to the corresponding routing in SPSS.) The file <I>cosine.dat</I> =
+contains=20
+this information in the Pajek-format. The size of the nodes is equal to =
+the=20
+logarithm of the occurrences of the respective word; this feature can be =
+turned=20
+on in Pajek.</SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">d. <I>words.dbf</I> =
+contains=20
+for all words the following three summations: </SPAN></P>
+<OL style=3D"MARGIN-TOP: 0in" type=3D1>
+  <LI class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">A variable named =
+=93Chi_Sq=94=20
+  which provides Chi-square contributions for each of the variables; =
+these are=20
+  defined for <I>word<SUB>i</SUB></I> as =
+&#931;<SUB>i</SUB>&#967;<SUP>2</SUP> =3D=20
+  (Observed<SUB>ij</SUB> =96 Expected<SUB>ij</SUB>)<SUP>2</SUP> /=20
+  Expected<SUB>in</SUB>. In other words, the sum of the contributions =
+over the=20
+  column for the variable in each row (Mogoutov <I>et al</I>., 2008); =
+</SPAN>
+  <LI class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">A variable named =
+=93ObsExp=94=20
+  which provides the sum of |Observed =96 Expected| for the word as a =
+variable=20
+  summed over the column;</SPAN>=20
+  <LI class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">A variable named =
+=93TfIdf=94=20
+  which use Salton &amp; McGill=92s (1983: 63)=20
+  TermFrequency-InverseDocumentFrequency measure (but without Salton=92s =
+
+  additional + 1; Magerman <I>et al</I>., 2007) defined as follows:=20
+  WEIGHT<SUB>ik</SUB> =3D FREQ<SUB>ik</SUB> * [log<SUB>2</SUB> (n) =96=20
+  log<SUB>2</SUB> (DOCFREQ<SUB>k</SUB>)]. This function assigns a high =
+degree of=20
+  importance to terms occurring in only a few documents in the=20
+  collection;</SPAN>=20
+  <LI class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">The word =
+frequency within=20
+  the set. </SPAN></LI></OL>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt">Examples of using =
+these=20
+programs can be found in: </SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.25in; TEXT-INDENT: =
+-0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">=95&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://www.leydesdorff.net/HiddenWeb/index.htm">The =
+University-Industry=20
+Knowledge Relationship: Analyzing Patents and the Science Base of=20
+Technologies</A>, <I>Journal of the American Society for Information =
+Science and=20
+Technology (JASIST</I>) 55(11) (2004), 991-1001; &lt;<A=20
+href=3D"http://www.leydesdorff.net/HiddenWeb/HiddenWeb.pdf">pdf-version</=
+A>&gt;=20
+</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.25in; TEXT-INDENT: =
+-0.25in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">=95<SPAN=20
+style=3D"font-size-adjust: none; font-stretch: =
+normal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loet=20
+Leydesdorff &amp; Iina Hellsten, <A=20
+href=3D"http://www.leydesdorff.net/stemcell">Metaphors and Diaphors in =
+Science=20
+Communication: Mapping the Case of =91Stem-Cell Research=92</A>, =
+<I>Science=20
+Communication </I>27(1) &nbsp;(2005), 64-99. &lt;<A=20
+href=3D"http://www.leydesdorff.net/stemcells.pdf">pdf-version</A>&gt;=20
+</SPAN></SPAN></P>
+<P class=3DMsoNormal style=3D"TEXT-ALIGN: right" align=3Dright><B><SPAN=20
+style=3D"FONT-SIZE: 12pt"><A=20
+href=3D"http://users.fmg.uva.nl/lleydesdorff/software/ti/ti.exe">click =
+here to=20
+download program</A></SPAN></B></P>
+<P class=3DMsoNormal><I><SPAN style=3D"FONT-SIZE: =
+12pt">References</SPAN></I></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">Leydesdorff, L. (1995). <I>The Challenge of=20
+Scientometrics: The development, measurement, and self-organization of=20
+scientific communications. </I>Leiden: DSWO Press, Leiden University; at =
+<A=20
+href=3D"http://www.upublish.com/books/leydesdorff-sci.htm">http://www.upu=
+blish.com/books/leydesdorff-sci.htm</A>=20
+.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">Magerman, T., Van Looy, B., &amp; Song, X. =
+(2007).=20
+<I>Exploring the feasibility and accuracy of Latent Semantic Analysis =
+based text=20
+mining techniques to detect similarity between patent documents and =
+scientific=20
+publications.</I> Paper presented at the 6th Triple Helix Conference, =
+16-19 May=20
+2007, Singapore.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">Mogoutov, A., Cambrosio, A., Keating, P., =
+&amp; Mustar,=20
+P. (2008). Biomedical innovation at the laboratory, clinical and =
+commercial=20
+interface: A new method for mapping research projects, publications and =
+patents=20
+in the field of microarrays. <I>Journal of Informetrics</I> (In print);=20
+doi:10.1016/j.joi.2008.06.005.</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt">Salton, G. &amp; M. J. McGill (1983). =
+<I>Introduction to=20
+Modern Information Retrieval</I>. Auckland, etc.: =
+McGraw-Hill.&nbsp;</SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 10.5pt">Links to programs for (Porter=92s) stemming: =
+</SPAN></P>
+<P class=3DMsoNormal><SPAN lang=3DEL style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://maya.cs.depaul.edu/~classes/ds575/porter.html">http://maya=
+.cs.depaul.edu/~classes/ds575/porter.html</A></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://snowball.tartarus.org/demo.php">http://snowball.tartarus.o=
+rg/demo.php</A></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 10.5pt">Links to programs for parsing:</SPAN></P>
+<P class=3DMsoNormal><SPAN lang=3DEL style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://l2r.cs.uiuc.edu/~cogcomp/eoh/posdemo.html">http://l2r.cs.u=
+iuc.edu/~cogcomp/eoh/posdemo.html</A></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://l2r.cs.uiuc.edu/~cogcomp/shallow_parse_demo.php">http://l2=
+r.cs.uiuc.edu/~cogcomp/shallow_parse_demo.php</A></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://nlp.stanford.edu:8080/parser/">http://nlp.stanford.edu:808=
+0/parser/</A></SPAN></P>
+<P class=3DMsoNormal><SPAN style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://alias-i.com/lingpipe/web/demos.html">http://alias-i.com/li=
+ngpipe/web/demos.html</A></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 10.5pt">php-versions of Porter=92s stemmer: =
+</SPAN></P>
+<P class=3DMsoNormal><SPAN lang=3DEL style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://www.chuggnutt.com/stemmer-source.php">http://www.chuggnutt=
+.com/stemmer-source.php</A></SPAN></P>
+<P class=3DMsoNormal><SPAN lang=3DEL style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://www.phpguru.org/downloads/PorterStemmer/PorterStemmer.phps=
+">http://www.phpguru.org/downloads/PorterStemmer/PorterStemmer.phps</A></=
+SPAN></P>
+<P class=3DMsoNormal><SPAN lang=3DEL style=3D"FONT-SIZE: 10.5pt"><A=20
+href=3D"http://webscripts.softpedia.com/scriptDownload/Porter-Stemming-Al=
+gorithm-Download-46193.html">http://webscripts.softpedia.com/scriptDownlo=
+ad/Porter-Stemming-Algorithm-Download-46193.html</A></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in">&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt"><A href=3D"http://www.leydesdorff.net/">return =
+to home=20
+page</A></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN-LEFT: 0.5in; TEXT-INDENT: =
+-0.5in"><SPAN=20
+style=3D"FONT-SIZE: 12pt"></SPAN>&nbsp;</P></DIV></BODY></HTML>
